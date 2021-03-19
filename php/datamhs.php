@@ -1,7 +1,7 @@
 <?php 
                 $mahasiswa=array(
                 'mhs1'=> array(
-                        'nama'=>'rizal',
+                        'nama'=>'afrizal',
                         'nrp'=>1,
                         'ipk'=>3.1,
                         'rambut'=> 'hitam dan lurus',
