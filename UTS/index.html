@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UTS - M. Afrizal Rizky W (19650048)</title>
 </head>
 
 <body>
+    <div class="container">
+        <form action="php/data.php" name="calculator" method="POST">
+            <table align="center">
+                <tr>
+                    <th colspan="2" style="text-align: left;">FORM HITUNG</th>
+                </tr>
+                <tr>
+                    <td class="txt-box">Nilai A </td>
+                    <td><input type="number" placeholder="masukkan Nilai A" name="angkaSatu" id="angkaSatu"></td>
+                </tr>
+                <tr>
+                    <td class="txt-box">Nilai B </td>
+                    <td><input type="number" placeholder="masukkan Nilai B" name="angkaDua" id="angkaDua"></td>
+                </tr>
+                <tr>
+                    <td>Operator</td>
+                    <td>
+                        <select id="op">
+                            <!-- <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option> -->
+                            <option value="/">/</option>
+                            <!-- <option value="%">%</option> -->
+                        </select>
+                    </td>
+                    <td><input type="text" readonly name="hasil" id="hasil" style="display: none;"></td>
 
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" onclick="kalkulator()" value="Hitung">
+                        <button type="reset" class="tombol reset">Clear</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>
