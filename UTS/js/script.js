@@ -3,10 +3,10 @@ function kalkulator() {
     // Muhammad Afrizal Rizky Widyanto (19650048)
     // Kelas: Pemrograman Web F
 
-    //variable angka satu
+    //variable Nilai 1
     var angkaSatu = parseInt(document.getElementById("angkaSatu").value);
 
-    //variable angka dua
+    //variable Nilai 2
     var angkaDua = parseInt(document.getElementById("angkaDua").value);
 
     //variable operasi aritmatik
@@ -15,7 +15,7 @@ function kalkulator() {
     //variable angka hasil
     var hasil = document.getElementById("hasil");
 
-    //variable untuk menampung angka satu dan angka dua
+    //variable untuk menampung nilai 1 dan nilai 2 dua
     var total;
 
 
