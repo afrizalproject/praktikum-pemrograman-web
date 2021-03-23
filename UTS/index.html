@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTS - M. Afrizal Rizky W (19650048)</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
         <form action="php/data.php" name="calculator" method="POST">
             <table align="center">
                 <tr>
-                    <th colspan="2" style="text-align: left;">FORM HITUNG</th>
+                    <th colspan="2" style="text-align: center;">FORM HITUNG</th>
                 </tr>
                 <tr>
                     <td class="txt-box">Nilai A </td>
@@ -26,11 +27,7 @@
                     <td>Operator</td>
                     <td>
                         <select id="op">
-                            <!-- <option value="+">+</option>
-                            <option value="-">-</option>
-                            <option value="*">*</option> -->
                             <option value="/">/</option>
-                            <!-- <option value="%">%</option> -->
                         </select>
                     </td>
                     <td><input type="text" readonly name="hasil" id="hasil" style="display: none;"></td>
@@ -38,7 +35,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-                        <input type="submit" onclick="kalkulator()" value="Hitung">
+                        <input type="submit" onclick="kalkulator()" value="Hitung" class="tombol">
                         <button type="reset" class="tombol reset">Clear</button>
                     </td>
                 </tr>

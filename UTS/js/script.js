@@ -15,15 +15,15 @@ function kalkulator() {
     //variable angka hasil
     var hasil = document.getElementById("hasil");
 
-    //variable untuk menampung total angka satu dan angka dua
+    //variable untuk menampung angka satu dan angka dua
     var total;
 
 
     var proses = angkaSatu / angkaDua;
     if (angkaSatu % angkaDua == 0) {
-        total = proses;
+        total = "Hasil : " + proses;
     } else {
-        total = (angkaSatu % angkaDua);
+        total = "Hasil : " + (angkaSatu % angkaDua);
     }
 
     document.calculator.hasil.value = total;
