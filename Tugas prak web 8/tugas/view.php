@@ -20,16 +20,17 @@ $guests = $conn->query($sql);
             width: 100%;
         }
 
-        td,
-        th {
+        td{
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
         }
 
-        tr:nth-child(even) {
-            background-color: #dddddd;
+        th{
+            background-color: salmon;
+            border: 1px solid #dddddd;
         }
+
     </style>
 </head>
 
@@ -40,6 +41,7 @@ $guests = $conn->query($sql);
         </h2>
         <table>
             <tr>
+            <th>ID Buku Tamu</th>
             <th>Nama</th>
             <th>Email</th>
             <th>Komentar</th>
@@ -48,6 +50,7 @@ $guests = $conn->query($sql);
             if (mysqli_num_rows($guests)>0) {
                 while($guest = mysqli_fetch_array($guests)){
                     echo "<tr>";
+                        echo "<td>" . $guest['id_bukutamu'] . "</td>";
                         echo "<td>" . $guest['nama'] . "</td>";
                         echo "<td>" . $guest['email'] . "</td>";
                         echo "<td>" . $guest['komentar'] . "</td>";                    

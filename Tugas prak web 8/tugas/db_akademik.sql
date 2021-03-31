@@ -27,8 +27,6 @@ CREATE TABLE IF NOT EXISTS `bukutamu` (
 
 -- Dumping data for table db_akademik.bukutamu: ~4 rows (approximately)
 /*!40000 ALTER TABLE `bukutamu` DISABLE KEYS */;
-REPLACE INTO `bukutamu` (`id_bukutamu`, `nama`, `email`, `komentar`) VALUES
-	(1, 'dayat', 'name@gmail.com', 'komen')l
 /*!40000 ALTER TABLE `bukutamu` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
