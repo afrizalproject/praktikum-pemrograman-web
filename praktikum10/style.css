@@ -1,0 +1,48 @@
+body {
+    background-color: salmon;
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.btn-blue {
+    background-color: #007ACC;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.btn-green {
+    background-color: #3CAEA3;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: #C70039;
+    text-decoration: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 4px;
+    font-weight: bold;
+}
